@@ -1,0 +1,63 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap');
+
+
+
+
+
+ 
+
+.footer {
+  background-color: #f2f2f2;
+  padding-top: 1%;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  margin-top: auto;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+
+ .nav-link{
+  display: inline-block;
+  margin-inline: 5px;
+  text-align: center;
+}
+
+.nav-link:hover{
+  color: rgb(10, 47, 167);
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-brand{
+    font-size: 15px;
+  }
+  .navbar-toggler-icon{
+    height: 30px;
+  }
+  .container {
+    max-width: 90%;
+  }
+  .footer .container p{
+    font-size: 10px;
+  }
+   .nav-link{
+    font-size: 12.5px;
+  }
+}
+
+ */
+
+
+* {
+  /* font-family: 'Great Vibes', cursive !important; */
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
