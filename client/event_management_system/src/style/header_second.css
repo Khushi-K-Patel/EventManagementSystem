@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: 0.3s ease;
+}
+
+#brandName {
+    color: black;
+}
+
+.navbar-nav .nav-link {
+    color: black;
+}
+
+nav {
+    /* background-color: #f8f9fa; */
+}
+
+@media only screen and (max-width: 600px) {
+    #bradName {
+        font-size: .75rem;
+    }
+
+    .logo {
+        font-size: 25px;
+    }
+}

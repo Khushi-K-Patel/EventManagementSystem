@@ -1,0 +1,145 @@
+.banner-image {
+    background-image: url('https://websitedemos.net/event-management-04/wp-content/uploads/sites/638/2020/07/toasting-glasses.jpg');
+}
+
+p {
+    padding: 1rem;
+}
+
+.center {
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 3rem;
+}
+
+.imagehome {
+    height: 500px !important;
+    width: 500px !important;
+}
+
+
+
+
+
+ .banner-image {
+    background-image: url("https://websitedemos.net/event-management-04/wp-content/uploads/sites/638/2020/07/toasting-glasses.jpg");
+    background-size: cover !important;
+    background-position: center !important;
+    width: 100vw;
+}
+
+.headinghome {
+
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+    justify-content: center;
+}
+
+.headinghome1 {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    color: var(--white);
+    text-shadow: #fff;
+    text-align: center;
+}
+
+.sub-heading {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 2.5rem;
+}
+
+.padding {
+    padding-left: 5rem !important;
+}
+
+.mt5 {
+    margin-top: 4rem;
+}
+
+.font-size {
+    font-size: 1.2rem;
+}
+
+.center1 {
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 3rem;
+}
+
+@media only screen and (max-width: 1200px) {
+    .headinghome {
+
+        padding-top: 15rem;
+        padding-bottom: 15rem;
+        justify-content: center;
+    }
+    .card{
+        margin: 5%;
+    }
+    .imagehome {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        height: 300px !important;
+        width: 300px !important;
+    }
+
+    .headinghome1 {
+        font-size: 2rem;
+        text-transform: uppercase;
+        color: var(--white);
+        text-shadow: #fff;
+        text-align: center;
+    }
+
+    .sub-heading {
+        text-align: center;
+        margin-top: 2rem;
+        font-size: 2.5rem !important;
+    }
+
+    .padding {
+        padding: 0rem !important;
+    }
+
+    .h1home {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .headinghome {
+
+        padding-top: 15rem;
+        padding-bottom: 15rem;
+        justify-content: center;
+    }
+
+    .headinghome1 {
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        color: var(--white);
+        text-shadow: #fff;
+        text-align: center;
+    }
+
+    .sub-heading {
+        text-align: center;
+        margin-top: 2rem;
+        font-size: 1rem;
+    }
+
+    .imagehome {
+        width: 300px;
+        height: 300px;
+        margin-left: 0 !important;
+    }
+    .imageswiper{
+        margin: 1rem;
+    }
+    .padding {
+        padding: 0rem !important;
+    }
+} 

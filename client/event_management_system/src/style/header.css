@@ -1,0 +1,52 @@
+/* .navbar {
+    background-color: #761945 !important;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.navbar-toggler {
+    color: white !important;
+    text-decoration: black !important;
+}
+.nav-link {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+} */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: 0.3s ease;
+}
+
+.navbar-brand-text-black {
+    color: black !important;
+}
+
+.navbar-item-text {
+    color: black !important;
+}
+
+@media only screen and (max-width: 600px) {
+    #bradName {
+        font-size: 30%;
+    }
+
+    .logo {
+        font-size: 25px;
+    }
+}
+
+
+#bradName {
+    font-size: 30px;
+}
+
+.logo {
+    font-size: 50px;
+}

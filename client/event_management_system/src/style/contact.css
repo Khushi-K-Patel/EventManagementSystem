@@ -1,0 +1,240 @@
+/* .heading1 {
+
+    background-size: cover !important;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREvq9TZaqYRFvQLf4TigGsQsT1Gh14IWGARA&usqp=CAU");
+    background-position: center !important;
+    padding-top: 16rem;
+    padding-bottom: 15rem;
+    background-size: auto 70%;
+    height: 80vh;
+}
+
+.heading1 h1 {
+    font-size: 7rem;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: #111;
+    text-align: center;
+
+}
+
+.heading1 h3 {
+    font-size: 2rem;
+    color: white;
+    text-shadow: #111;
+    padding-top: 5rem;
+    text-align: center;
+}
+
+.custom-input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    box-shadow: none;
+} */
+
+/* .contact {
+    margin-top: 2.5rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact-form {
+    padding: 2rem 0;
+    border-top: 1px solid #c7c7c7;
+}
+
+.contact-form form {
+    padding-bottom: 1rem;
+}
+
+input {
+    width: 100% !important;
+}
+
+textarea {
+    margin-right: 1rem !important;
+}
+
+iframe {
+    height: 43vh;
+    width: 33vw;
+} */
+
+/* .form-control{
+    width: 90% !important;
+    border: 1.5px solid white;
+    border-radius: 5px;
+    padding: 0.7rem;
+    margin: 0.6rem 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    outline: 0;
+}
+.form-control:focus{
+    box-shadow: 0 0 6px -3px rgba(48, 48, 48, 1);
+}
+.contact-form form div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 0.6rem;
+}
+.send-btn{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #fff;
+    background: #761945;
+    border: none;
+    border-radius: 5px;
+    padding: 0.7rem 0.5rem;
+    cursor: pointer;
+    width: 30% !important;
+    margin-top: 2%;
+    
+    transition: all 0.4s ease;
+} */
+
+
+
+.banner-contact {
+    background-size: cover !important;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREvq9TZaqYRFvQLf4TigGsQsT1Gh14IWGARA&usqp=CAU");
+    background-position: center !important;
+    height: 75vh;
+}
+
+.heading1 {
+    padding-top: 25vh;
+    padding-bottom: 30vh;
+    word-wrap: normal;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+}
+
+.heading1 h1 {
+    font-size: 7rem;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: #111;
+    text-align: center;
+}
+
+.heading1 h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: #111;
+    text-align: center;
+}
+
+.contact {
+    margin-top: 2.5rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact-form {
+    padding: 2rem 0;
+    border-top: 1px solid #c7c7c7;
+}
+
+.contact-form form {
+    padding-bottom: 1rem;
+}
+
+input {
+    width: 100% !important;
+}
+
+textarea {
+    margin-right: 1rem !important;
+}
+
+iframe {
+    /* height: 43vh;
+
+    width: 33vw; */
+
+    height: 80%;
+    width: 120%;
+}
+
+.ms1 {
+    margin-left: 0.5%;
+}
+
+.me2 {
+    margin-right: 2%;
+}
+
+/* .form-control{
+    width: 90% !important;
+    border: 1.5px solid white;
+    border-radius: 5px;
+    padding: 0.7rem;
+    margin: 0.6rem 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    outline: 0;
+}
+.form-control:focus{
+    box-shadow: 0 0 6px -3px rgba(48, 48, 48, 1);
+}
+.contact-form form div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 0.6rem;
+}
+.send-btn{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #fff;
+    background: #761945;
+    border: none;
+    border-radius: 5px;
+    padding: 0.7rem 0.5rem;
+    cursor: pointer;
+    width: 30% !important;
+    margin-top: 2%;
+    
+    transition: all 0.4s ease;
+} */
+@media only screen and (max-width: 900px) {
+    .heading1 h1 {
+        font-size: 2.8rem;
+        text-transform: uppercase;
+        color: white;
+        text-shadow: #111;
+        text-align: center;
+    }
+
+    .heading1 h3 {
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        color: white;
+        text-shadow: #111;
+        text-align: center;
+    }
+
+    .contact-form {
+        padding: 0rem 0;
+    }
+
+    iframe {
+        width: 95%;
+        height: 95%;
+        margin-right: 0 !important;
+    }
+
+    textarea {
+        margin-right: 0rem !important;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {}
